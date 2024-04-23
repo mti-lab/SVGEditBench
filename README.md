@@ -1,5 +1,5 @@
 # SVGEditBench
-This repository contains the dataset used for the "SVGEditBench: A Benchmark Dataset for Quantitative Assessment of LLM's SVG Editing Capabilities" paper. The paper was accepted to [Workshop on Graphic Design Understanding and Generation (GDUG)](https://sites.google.com/view/gdug-workshop), held at the [CVPR2024](https://cvpr.thecvf.com/Conferences/2024) conference.
+This repository contains the dataset used for the "SVGEditBench: A Benchmark Dataset for Quantitative Assessment of LLM's SVG Editing Capabilities" paper ([arXiv link](http://arxiv.org/abs/2404.13710)). The paper was accepted to [Workshop on Graphic Design Understanding and Generation (GDUG)](https://sites.google.com/view/gdug-workshop), held at the [CVPR2024](https://cvpr.thecvf.com/Conferences/2024) conference.
 
 ## Structure of the Dataset
 The benchmark consists of six SVG editing tasks, each with its own folder. Each folder has two subfolders: `answer` and `query.` The `query` folder contains the prompt for the LLM with the SVG code before editing. The `answer` folder is where the answer images are.
