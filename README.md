@@ -2,7 +2,7 @@
 This repository contains the dataset used for the "SVGEditBench: A Benchmark Dataset for Quantitative Assessment of LLM's SVG Editing Capabilities" paper ([arXiv link](http://arxiv.org/abs/2404.13710)). The paper was accepted to [Workshop on Graphic Design Understanding and Generation (GDUG)](https://sites.google.com/view/gdug-workshop), held at the [CVPR2024](https://cvpr.thecvf.com/Conferences/2024) conference.
 
 ## Structure of the Dataset
-The benchmark consists of six SVG editing tasks, each with its own folder. Each folder has two subfolders: `answer` and `query.` The `query` folder contains the prompt for the LLM with the SVG code before editing. The `answer` folder is where the answer images are.
+The benchmark consists of six SVG editing tasks, each with its own folder. Each folder has two subfolders: `answer` and `query`. The `query` folder contains the prompt for the LLM with the SVG code before editing. The `answer` folder is where the answer images are.
 
 We selected 100 images from the [twemoji](https://github.com/twitter/twemoji) dataset (by Twitter, Inc and other contributors, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) and made the input prompt and the answer images. The images were modified to create those answer images. Refer to the paper for more details on how we created the dataset.
 
